@@ -6,7 +6,7 @@ This repository contains a comprehensive data analysis project built in Google S
 The analysis reveals critical findings about the sustainability of the company's discount-heavy sales strategy and provides actionable strategic recommendations.
 
 ## 📊 Live Dashboard
-Access the Google Sheet here: [https://docs.google.com/spreadsheets/d/11wpGyHR0pDYse2fkuqkHp3K8E5a1ztEbRw8qo4WbuLU/edit?usp=sharing](#)  
+Access the Google Sheet here: [Superstore_Analysis[https://docs.google.com/spreadsheets/d/11wpGyHR0pDYse2fkuqkHp3K8E5a1ztEbRw8qo4WbuLU/edit?usp=sharing]](#)  
 (Note: Ensure the sharing permissions are set to "Anyone with the link can view")
 
 ## 🗂️ Repository Structure & Documentation
