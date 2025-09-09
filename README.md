@@ -1,13 +1,14 @@
 # Superstore_Analysis
 
+# Sales Performance & Customer Profitability Dashboard
+
 ## 📖 Overview
 This repository contains a comprehensive data analysis project built in Google Sheets. The project transforms raw sales transaction data into a cleaned, analyzable dataset and performs an in-depth analysis to uncover key business insights regarding discount strategies, customer acquisition costs, and customer lifetime value.
 
 The analysis reveals critical findings about the sustainability of the company's discount-heavy sales strategy and provides actionable strategic recommendations.
 
 ## 📊 Live Dashboard
-Access the Google Sheet here: [Superstore_Analysis[https://docs.google.com/spreadsheets/d/11wpGyHR0pDYse2fkuqkHp3K8E5a1ztEbRw8qo4WbuLU/edit?usp=sharing]](#)  
-(Note: Ensure the sharing permissions are set to "Anyone with the link can view")
+Access the Google Sheet here: [[Superstore_Analysis](https://docs.google.com/spreadsheets/d/11wpGyHR0pDYse2fkuqkHp3K8E5a1ztEbRw8qo4WbuLU/edit?usp=sharing)](#)  
 
 ## 🗂️ Repository Structure & Documentation
 The Google Sheet is organized into several key tabs:
@@ -89,5 +90,7 @@ Based on the insights, the following strategic actions are recommended:
 
 ## ⁉️ Notes & Limitations
 - The `Is New Customer` flag is a simplification. A more robust implementation would require a complete transaction history to accurately identify a customer's first order.
+- CAC is calculated using Discount Amount as a proxy for marketing spend. A real-world calculation would include all marketing and sales expenses.
+- The analysis is based on historical data. Market conditions and customer behavior can change.
 - CAC is calculated using Discount Amount as a proxy for marketing spend. A real-world calculation would include all marketing and sales expenses.
 - The analysis is based on historical data. Market conditions and customer behavior can change.
