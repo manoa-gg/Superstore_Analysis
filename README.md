@@ -1,5 +1,5 @@
 # Superstore_Analysis
-##🔧 Data Cleaning & Transformation
+## 🔧 Data Cleaning & Transformation
 The following operations were performed on the raw data to create the cleaned dataset:
 
 Data Integrity: Removed blank rows and deleted duplicate entries.
@@ -28,7 +28,7 @@ Boolean Transformation: Created a Discount (B) column (Yes/No) based on the pres
 
 Customer Analysis: Added an Is New Customer flag (implementation logic may vary).
 
-##📈 Analysis Performed
+## 📈 Analysis Performed
 The analysis answered the following key business questions:
 
 1. General Data Assessment:
@@ -61,7 +61,7 @@ Profit/Loss trend between years.
 
 Dedicated charts for each of the three main metrics.
 
-##🔍 Key Insights
+## 🔍 Key Insights
 The analysis uncovered several critical insights about the business:
 
 Unsustainable Discount Strategy: High discount rates (averaging ~73%) consume nearly all gross margin, creating significant financial risk. Sales growth is parallelled by rising discount costs.
@@ -70,7 +70,7 @@ Ineffective Customer Acquisition: The cost to acquire a new customer (CAC) becam
 
 Extreme Customer Polarization: A small cohort of "Champion" customers is highly profitable (avg. 39.6% GM), while a large group of "Liability" customers is catastrophically unprofitable (avg. -53.8% GM), masking massive losses.
 
-##💡 Strategic Recommendations
+## 💡 Strategic Recommendations
 Based on the insights, the following strategic actions are recommended:
 
 Immediate Actions (0-3 Months):
@@ -98,7 +98,7 @@ Interact with Pivots: Feel free to filter the pivot tables on the pivot_overview
 
 Understand the Logic: Formulas are used throughout the cleaned and metric tabs. You can click on cells to see the calculations for metrics like Profit Margin, CLV, and CAC.
 
-##⁉️ Notes & Limitations
+## ⁉️ Notes & Limitations
 The Is New Customer flag is a simplification. A more robust implementation would require a complete transaction history to accurately identify a customer's first order.
 
 CAC is calculated using Discount Amount as a proxy for marketing spend. A real-world calculation would include all marketing and sales expenses.
