@@ -1,15 +1,15 @@
 # Superstore_Analysis
 Sales Performance & Customer Profitability Dashboard
-📖 Overview
+## 📖 Overview
 This repository contains a comprehensive data analysis project built in Google Sheets. The project transforms raw sales transaction data into a cleaned, analyzable dataset and performs an in-depth analysis to uncover key business insights regarding discount strategies, customer acquisition costs, and customer lifetime value.
 
 The analysis reveals critical findings about the sustainability of the company's discount-heavy sales strategy and provides actionable strategic recommendations.
 
-📊 Live Dashboard
+## 📊 Live Dashboard
 Access the Google Sheet here: [LINK TO YOUR GOOGLE SHEET]
 (Note: Ensure the sharing permissions are set to "Anyone with the link can view")
 
-🗂️ Repository Structure & Documentation
+## 🗂️ Repository Structure & Documentation
 The Google Sheet is organized into several key tabs:
 
 Tab Name	Description
@@ -49,7 +49,7 @@ Boolean Transformation: Created a Discount (B) column (Yes/No) based on the pres
 
 Customer Analysis: Added an Is New Customer flag (implementation logic may vary).
 
-📈 Analysis Performed
+## 📈 Analysis Performed
 The analysis answered the following key business questions:
 
 1. General Data Assessment:
@@ -82,7 +82,7 @@ Profit/Loss trend between years.
 
 Dedicated charts for each of the three main metrics.
 
-🔍 Key Insights
+## 🔍 Key Insights
 The analysis uncovered several critical insights about the business:
 
 Unsustainable Discount Strategy: High discount rates (averaging ~73%) consume nearly all gross margin, creating significant financial risk. Sales growth is parallelled by rising discount costs.
@@ -91,7 +91,7 @@ Ineffective Customer Acquisition: The cost to acquire a new customer (CAC) becam
 
 Extreme Customer Polarization: A small cohort of "Champion" customers is highly profitable (avg. 39.6% GM), while a large group of "Liability" customers is catastrophically unprofitable (avg. -53.8% GM), masking massive losses.
 
-💡 Strategic Recommendations
+## 💡 Strategic Recommendations
 Based on the insights, the following strategic actions are recommended:
 
 Immediate Actions (0-3 Months):
@@ -112,14 +112,14 @@ Implement CLV Segmentation: Formalize customer tiers (A, B, C) based on profitab
 
 Shift to Value-Based Selling: Develop loyalty programs and value-added services to compete on value rather than price.
 
-🛠️ How to Use This Analysis
+## 🛠️ How to Use This Analysis
 View the Dashboard: Open the Google Sheet and navigate through the tabs to see the raw data, cleaning process, and analysis.
 
 Interact with Pivots: Feel free to filter the pivot tables on the pivot_overview and metric tabs to slice the data by different dimensions (e.g., year, segment, category).
 
 Understand the Logic: Formulas are used throughout the cleaned and metric tabs. You can click on cells to see the calculations for metrics like Profit Margin, CLV, and CAC.
 
-⁉️ Notes & Limitations
+## ⁉️ Notes & Limitations
 The Is New Customer flag is a simplification. A more robust implementation would require a complete transaction history to accurately identify a customer's first order.
 
 CAC is calculated using Discount Amount as a proxy for marketing spend. A real-world calculation would include all marketing and sales expenses.
