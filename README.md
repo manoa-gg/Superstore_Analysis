@@ -1,7 +1,5 @@
 # Superstore_Analysis
 
-# Sales Performance & Customer Profitability Dashboard
-
 ## 📖 Overview
 This repository contains a comprehensive data analysis project built in Google Sheets. The project transforms raw sales transaction data into a cleaned, analyzable dataset and performs an in-depth analysis to uncover key business insights regarding discount strategies, customer acquisition costs, and customer lifetime value.
 
