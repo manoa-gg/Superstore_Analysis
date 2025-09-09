@@ -17,11 +17,10 @@ The Google Sheet is organized into several key tabs:
 |------------------------------|-----------------------------------------------------------------------------|
 | `raw`                        | The original, unaltered dataset as received.                                |
 | `cleaned`                    | The processed data ready for analysis. Key transformations applied are listed below. |
-| `pivot_overview`             | Preliminary pivot tables for a high-level assessment of the data.           |
-| `metric_1_discount_grossmargin` | Contains the analysis and charts for Discount Rate and Gross Margin.       |
-| `metric_2_cac`               | Contains the analysis and charts for Customer Acquisition Cost (CAC).       |
-| `metric_3_clv`               | Contains the analysis and charts for Customer Lifetime Value (CLV).         |
-| `key_insights`               | A summary of the final key insights and strategic recommendations.         |
+| `preliminary_pivot`             | Preliminary pivot tables for a high-level assessment of the data.           |
+| `preliminary_chart`             | Contains the preliminary charts for high-level assessment of the data.       |
+| `core_objective_pivot`               | Contains the analysis and pivot table for core metric.       |
+| `core_objective_chart`               | Contains the charts for core metric and key insight and strategic recommendations.         |
 
 ## 🔧 Data Cleaning & Transformation
 The following operations were performed on the raw data to create the cleaned dataset:
