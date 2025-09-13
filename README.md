@@ -1,12 +1,18 @@
 # Superstore_Analysis
 
+---
+title: "Sales Performance & Customer Profitability Dashboard"
+output: html_document
+---
+
 ## 📖 Overview
 This repository contains a comprehensive data analysis project built in Google Sheets. The project transforms raw sales transaction data into a cleaned, analyzable dataset and performs an in-depth analysis to uncover key business insights regarding discount strategies, customer acquisition costs, and customer lifetime value.
 
 The analysis reveals critical findings about the sustainability of the company's discount-heavy sales strategy and provides actionable strategic recommendations.
 
 ## 📊 Live Dashboard
-Access the Google Sheet here: [[Superstore_Analysis](https://docs.google.com/spreadsheets/d/11wpGyHR0pDYse2fkuqkHp3K8E5a1ztEbRw8qo4WbuLU/edit?usp=sharing)](#)  
+Access the Google Sheet here: [[LINK TO YOUR GOOGLE SHEET](https://docs.google.com/spreadsheets/d/11wpGyHR0pDYse2fkuqkHp3K8E5a1ztEbRw8qo4WbuLU/edit?usp=sharing)](Superstore Analytics)  
+(Note: Ensure the sharing permissions are set to "Anyone with the link can view")
 
 ## 🗂️ Repository Structure & Documentation
 The Google Sheet is organized into several key tabs:
@@ -15,10 +21,11 @@ The Google Sheet is organized into several key tabs:
 |------------------------------|-----------------------------------------------------------------------------|
 | `raw`                        | The original, unaltered dataset as received.                                |
 | `cleaned`                    | The processed data ready for analysis. Key transformations applied are listed below. |
-| `preliminary_pivot`             | Preliminary pivot tables for a high-level assessment of the data.           |
-| `preliminary_chart`             | Contains the preliminary charts for high-level assessment of the data.       |
-| `core_objective_pivot`               | Contains the analysis and pivot table for core metric.       |
-| `core_objective_chart`               | Contains the charts for core metric and key insight and strategic recommendations.         |
+| `pivot_overview`             | Preliminary pivot tables for a high-level assessment of the data.           |
+| `metric_1_discount_grossmargin` | Contains the analysis and charts for Discount Rate and Gross Margin.       |
+| `metric_2_cac`               | Contains the analysis and charts for Customer Acquisition Cost (CAC).       |
+| `metric_3_clv`               | Contains the analysis and charts for Customer Lifetime Value (CLV).         |
+| `key_insights`               | A summary of the final key insights and strategic recommendations.         |
 
 ## 🔧 Data Cleaning & Transformation
 The following operations were performed on the raw data to create the cleaned dataset:
@@ -61,7 +68,7 @@ The analysis answered the following key business questions:
 ## 🔍 Key Insights
 The analysis uncovered several critical insights about the business:
 
-- **Unsustainable Discount Strategy:** High discount rates (averaging ~73%) consume nearly all gross margin, creating significant financial risk. Sales growth is parallelled by rising discount costs.
+- **Fundamental Margin Constraint:** Our average gross margin of ~12.5% is the fundamental constraint on profitability, not our discount rate. This low-margin environment means that even reasonable, industry-standard discounts consume a substantial portion of our potential earnings, squeezing our net profit to unsustainable levels. The problem is not that discounts are too high in isolation; it's that our underlying product margin (Sales - COGS) is too low to support a fairly standard discounting strategy and still deliver healthy net profit. We are trying to run a discount-driven growth engine on a low-margin product, limiting their effectiveness as a growth tool and highlighting our vulnerability to cost pressures.
 - **Ineffective Customer Acquisition:** The cost to acquire a new customer (CAC) became prohibitively expensive by 2017 ($3,613), indicating deep discounts have severely diminishing returns.
 - **Extreme Customer Polarization:** A small cohort of "Champion" customers is highly profitable (avg. 39.6% GM), while a large group of "Liability" customers is catastrophically unprofitable (avg. -53.8% GM), masking massive losses.
 
@@ -69,11 +76,11 @@ The analysis uncovered several critical insights about the business:
 Based on the insights, the following strategic actions are recommended:
 
 ### Immediate Actions (0-3 Months)
-- **Revise Discount Strategy:** Immediately prohibit discounts on low-margin products (&lt;15% GM). Implement a system-wide "Red Line" policy to block discounts that push margin below a set threshold.
+- **Target Discount Reduction:** Instead of a blanket discount freeze, identify and eliminate the least effective discounts. Which promotions drive volume without profit? Which customer segments get discounts they don't need? A small reduction here will have a direct impact.
 - **Customer Triage:** Freeze all sales activity for the top 10 least profitable customers and begin cost-to-serve analysis.
 
 ### Medium-Term Actions (3-12 Months)
-- **Diversify Marketing:** Reallocate 50% of the discount budget to brand-building activities (content, SEO, social media) to reduce reliance on price-based acquisition.
+- **Focus on Value, Not Price:** Invest in marketing that emphasizes product quality, reliability, and service—not just the lowest price. This builds a brand that can command higher base margins and be less reliant on discounts.
 - **Renegotiate or Exit:** For unprofitable customers, renegotiate terms to achieve minimum profitability or exit the relationship entirely.
 
 ### Long-Term Strategy (12+ Months)
@@ -87,7 +94,5 @@ Based on the insights, the following strategic actions are recommended:
 
 ## ⁉️ Notes & Limitations
 - The `Is New Customer` flag is a simplification. A more robust implementation would require a complete transaction history to accurately identify a customer's first order.
-- CAC is calculated using Discount Amount as a proxy for marketing spend. A real-world calculation would include all marketing and sales expenses.
-- The analysis is based on historical data. Market conditions and customer behavior can change.
 - CAC is calculated using Discount Amount as a proxy for marketing spend. A real-world calculation would include all marketing and sales expenses.
 - The analysis is based on historical data. Market conditions and customer behavior can change.
