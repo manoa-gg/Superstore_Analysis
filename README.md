@@ -1,18 +1,12 @@
 # Superstore_Analysis
 
----
-title: "Sales Performance & Customer Profitability Dashboard"
-output: html_document
----
-
 ## 📖 Overview
 This repository contains a comprehensive data analysis project built in Google Sheets. The project transforms raw sales transaction data into a cleaned, analyzable dataset and performs an in-depth analysis to uncover key business insights regarding discount strategies, customer acquisition costs, and customer lifetime value.
 
 The analysis reveals critical findings about the sustainability of the company's discount-heavy sales strategy and provides actionable strategic recommendations.
 
 ## 📊 Live Dashboard
-Access the Google Sheet here: [[LINK TO YOUR GOOGLE SHEET](https://docs.google.com/spreadsheets/d/11wpGyHR0pDYse2fkuqkHp3K8E5a1ztEbRw8qo4WbuLU/edit?usp=sharing)](Superstore Analytics)  
-(Note: Ensure the sharing permissions are set to "Anyone with the link can view")
+Access the Google Sheet here: [[Superstore Analytics](https://docs.google.com/spreadsheets/d/11wpGyHR0pDYse2fkuqkHp3K8E5a1ztEbRw8qo4WbuLU/edit?usp=sharing)](Google Spreadsheet)  
 
 ## 🗂️ Repository Structure & Documentation
 The Google Sheet is organized into several key tabs:
@@ -21,11 +15,10 @@ The Google Sheet is organized into several key tabs:
 |------------------------------|-----------------------------------------------------------------------------|
 | `raw`                        | The original, unaltered dataset as received.                                |
 | `cleaned`                    | The processed data ready for analysis. Key transformations applied are listed below. |
-| `pivot_overview`             | Preliminary pivot tables for a high-level assessment of the data.           |
-| `metric_1_discount_grossmargin` | Contains the analysis and charts for Discount Rate and Gross Margin.       |
-| `metric_2_cac`               | Contains the analysis and charts for Customer Acquisition Cost (CAC).       |
-| `metric_3_clv`               | Contains the analysis and charts for Customer Lifetime Value (CLV).         |
-| `key_insights`               | A summary of the final key insights and strategic recommendations.         |
+| `preliminary_pivot`          | Preliminary pivot tables for a high-level assessment of the data.           |
+| `preliminary_chart`          | Preliminary chart for a high-level assessment of the data.           |
+| `core_objective_pivot`       | Contains the chart, final key insight, and strategic recommendations.       |
+| `core_objective_chart`       | Contains the analysis and pivot tables for core metric.       |
 
 ## 🔧 Data Cleaning & Transformation
 The following operations were performed on the raw data to create the cleaned dataset:
